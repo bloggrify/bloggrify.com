@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+
+sitemap: https://bloggr.eventuallycoding.com/sitemap.xml
