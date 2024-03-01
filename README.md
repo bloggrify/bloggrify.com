@@ -1,57 +1,38 @@
-# Docus Starter
+# Website for Bloggr
 
-Starter template for [Docus](https://docus.dev).
+This is the landing page and the documentation for Bloggr, a blog template built on top of Nuxt.
 
-## Clone
+If you want to know more about Bloggr, you can check the [official website](https://bloggr.eventuallycoding.com/).
 
-Clone the repository (using `nuxi`):
 
-```bash
-npx nuxi init -t themes/docus
-```
+## Development guide
 
-## Setup
-
-Install dependencies:
+Make sure to install the dependencies:
 
 ```bash
-yarn install
+# npm
+npm install
 ```
 
-## Development
+## Development Server
+
+Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm run dev
 ```
 
-## Edge Side Rendering
+## Production
 
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
+Build the application for production:
 
 ```bash
-yarn build
+npm run generate
 ```
 
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
+Locally preview production build:
 
 ```bash
-yarn generate
+npm run preview
 ```
 
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
