@@ -1,10 +1,10 @@
 const templates = [
     {
-        name: "Default",
+        name: "Mistral",
         image: "/images/templates/bloggr.png",
         author: "eventuallycoding",
-        demo: "https://bloggr-demo.eventuallycoding.com",
-        repository: "https://github.com/hlassiege/bloggr",
+        demo: "https://bloggr-mistral.eventuallycoding.com",
+        repository: "https://github.com/hlassiege/bloggr-mistral",
     },
     {
         name: "Epoxia",
