@@ -1,7 +1,7 @@
 export default defineAppConfig({
   docus: {
     title: 'Bloggr',
-    description: 'The best place to start your blog.',
+    description: 'Start your blog in minutes with Bloggr, a modern static site generator using Markdown, built on top of Nuxt.js and nuxt-content.',
     image: 'https://bloggr.eventuallycoding.com/cover.png',
     socials: {
       twitter: 'hugolassiege',
