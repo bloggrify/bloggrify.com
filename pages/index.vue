@@ -80,7 +80,7 @@
 
             <a
               target="_blank"
-              href="https://bloggr-demo.eventuallycoding.com"
+              href="https://bloggr-mistral.eventuallycoding.com"
               class="relative group p-2 ps-3 inline-flex items-center gap-x-2 text-lg font-mono rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             >
               Demo
