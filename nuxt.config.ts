@@ -35,12 +35,12 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      url: "https://bloggr.eventuallycoding.com/",
+      url: "https://bloggrify.com/",
       logo: "/images/logo.svg",
 
       // If you only have one author, you can set the author here
       // It will be used as the default author for all posts AND as the general logo/description/socials for the website
-      name: "Bloggr",
+      name: "Bloggrify",
 
       socials: {
         twitter: "https://twitter.com/hugolassiege",

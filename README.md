@@ -1,8 +1,8 @@
-# Website for Bloggr
+# Website for Bloggrify
 
-This is the landing page and the documentation for Bloggr, a blog template built on top of Nuxt.
+This is the landing page and the documentation for Bloggrify, a blog template built on top of Nuxt.
 
-If you want to know more about Bloggr, you can check the [official website](https://bloggr.eventuallycoding.com/).
+If you want to know more about Bloggrify, you can check the [official website](https://bloggrify.com/).
 
 
 ## Development guide
