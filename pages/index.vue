@@ -349,7 +349,7 @@
             </div>
             <p class="text-gray-600 dark:text-gray-400">
               Hyvor Talk for comments, Pirsch for analytics,
-              Mailerlite for newsletter.
+              Mailerlite for newsletter, static search.
             </p>
           </div>
           <!-- End Card -->
