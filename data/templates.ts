@@ -11,7 +11,7 @@ const templates = [
         author: "eventuallycoding",
         image: "/images/templates/epoxia.png",
         demo: "https://epoxia.bloggrify.com",
-        shop: "https://www.buymeacoffee.com/hlassiege/e/225402",
+        shop: "https://eventuallycoding.lemonsqueezy.com/buy/7d05b8bf-add4-4839-8c78-925a073702bb",
     },
 ];
 
