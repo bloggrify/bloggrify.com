@@ -115,39 +115,39 @@
 
     <div class="mx-auto max-w-[85rem] md:p-4 mt-6 md:mt-20">
       <section class="gap-6 flex flex-col justify-center items-center">
-        <p class="w-full w-auto flex items-center flex-col text-black">
+        <p class="w-auto flex items-center flex-col text-black">
           <span class="text-lg text-gray-500">Built with</span>
         </p>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 gap-3 sm:gap-8 lg:gap-8 justify-center items-center opacity-60"
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 lg:gap-8 justify-center items-center opacity-60 dark:opacity-80 dark:contrast-[0.2]"
         >
           <img
-            src="/images/landing/nuxt.jpg"
+            src="/images/landing/nuxt.png"
             alt="Nuxt"
             class="h-12 w-auto mx-auto"
           >
           <img
-            src="/images/landing/nuxt-content.jpg"
+            src="/images/landing/nuxt-content.png"
             alt="Nuxt Content"
             class="h-12 w-auto mx-auto"
           >
           <img
-            src="/images/landing/tailwind.jpg"
+            src="/images/landing/tailwind.png"
             alt="Tailwind CSS"
             class="h-12 w-auto mx-auto"
           >
           <img
-            src="/images/landing/markdown.jpg"
+            src="/images/landing/markdown.png"
             alt="Markdown"
             class="h-12 w-auto mx-auto"
           >
           <img
-            src="/images/landing/hyvor.jpg"
+            src="/images/landing/hyvor.png"
             alt="Description"
             class="h-12 w-auto mx-auto"
           >
           <img
-            src="/images/landing/mailerlite.jpg"
+            src="/images/landing/mailerlite.png"
             alt="Description"
             class="h-12 w-auto mx-auto"
           >
