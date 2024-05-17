@@ -115,7 +115,7 @@
           <span class="text-lg text-gray-500">Built with</span>
         </p>
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8 lg:gap-8 justify-center items-center opacity-60 dark:opacity-80 dark:contrast-[0.1]"
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 lg:gap-8 justify-center items-center opacity-60 dark:opacity-80 dark:contrast-[0.1]"
         >
           <img
             src="/images/landing/nuxt.png"
@@ -139,11 +139,6 @@
           >
           <img
             src="/images/landing/hyvor.png"
-            alt="Description"
-            class="h-12 w-auto mx-auto"
-          >
-          <img
-            src="/images/landing/mailerlite.png"
             alt="Description"
             class="h-12 w-auto mx-auto"
           >
@@ -345,7 +340,9 @@
             </div>
             <p class="text-gray-600 dark:text-gray-400">
               Hyvor Talk for comments, Pirsch for analytics,
-              Mailerlite for newsletter, static search.
+              <NuxtLink to="https://rssfeedpulse.com" class="font-bold underline">
+                RssFeedPulse
+              </NuxtLink> for newsletter, static search.
             </p>
           </div>
           <!-- End Card -->
