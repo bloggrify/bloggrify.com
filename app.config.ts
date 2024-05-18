@@ -19,11 +19,6 @@ export default defineAppConfig({
       collapsed: false,
       exclude: []
     },
-    footer: {
-      textLinks: [
-        { text: 'See also: RssFeedPulse', href: 'https://rssfeedpulse.com' },
-      ],
-    },
     main: {
       padded: true,
       fluid: false
