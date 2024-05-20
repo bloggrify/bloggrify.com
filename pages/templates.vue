@@ -86,7 +86,7 @@ useHead({
         {
             key: "canonical",
             name: "canonical",
-            content: config.public.url,
+            content: config.public.url + "/templates",
         },
         {
             key: "description",
@@ -99,7 +99,7 @@ useHead({
             content: config.public.description,
         },
         { key: "og:type", name: "og:type", content: "website" },
-        { key: "og:url", name: "og:url", content: config.public.url },
+        { key: "og:url", name: "og:url", content: config.public.url + "/templates" },
         {
             key: "twitter:title",
             name: "twitter:title",
