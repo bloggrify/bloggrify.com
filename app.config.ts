@@ -8,10 +8,10 @@ export default defineAppConfig({
       github: 'bloggrify/bloggrify',
     },
     github: {
-      dir: '.starters/default/content',
-      branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      dir: '',
+      branch: 'master',
+      repo: 'bloggrify.com',
+      owner: 'bloggrify',
       edit: true
     },
     aside: {
