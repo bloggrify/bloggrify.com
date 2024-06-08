@@ -48,7 +48,7 @@
 
           <div class="mt-5 max-w-3xl text-center mx-auto">
             <p class="text-lg text-gray-600 dark:text-gray-400">
-              Bloggrify is a <strong>static</strong> blogging platform
+              Bloggrify is a <strong>static</strong> blog generator
               built on top of Nuxt.js and Nuxt-content providing
               everything you need to start writing your blog
               hassle-free AND <strong>for free</strong>.
@@ -185,7 +185,7 @@
               </div>
             </div>
             <p class="text-gray-600 dark:text-gray-400">
-              This is a static blogging platform, you can host it for
+              This is a static blog generator. You can host it for
               free on Vercel, Netlify, Cloudflare-pages or GitHub
               Pages.
             </p>

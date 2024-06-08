@@ -5,7 +5,7 @@ export default defineAppConfig({
     image: 'https://bloggrify.com/cover.png',
     socials: {
       twitter: 'hugolassiege',
-      github: 'hlassiege/bloggrify',
+      github: 'bloggrify/bloggrify',
     },
     github: {
       dir: '.starters/default/content',

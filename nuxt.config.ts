@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 
       socials: {
         twitter: "https://twitter.com/hugolassiege",
-        github: "https://github.com/hlassiege",
+        github: "https://github.com/bloggrify",
       },
 
       table_of_contents: false,

@@ -4,7 +4,7 @@ const templates = [
         image: "/images/templates/bloggr.png",
         author: "eventuallycoding",
         demo: "https://mistral.bloggrify.com",
-        repository: "https://github.com/hlassiege/bloggrify-mistral",
+        repository: "https://github.com/bloggrify/bloggrify-mistral",
     },
     {
         name: "Epoxia",
