@@ -16,7 +16,7 @@ const templates = [
     {
         name: "Bento",
         author: "eventuallycoding",
-        image: "/images/templates/bento.png",
+        image: "/images/templates/bento.jpg",
         demo: "https://bento.bloggrify.com",
         shop: "https://eventuallycoding.lemonsqueezy.com/buy/449c5e3a-7b34-4bff-b2c3-957adbb6df8e",
     },
