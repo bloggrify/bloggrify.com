@@ -7,11 +7,21 @@
         >
           Templates
         </div>
-        <span
-          class="block text-gray-500 text-sm md:text-base dark:text-gray-200"
-        >
-          A collection of templates for your next blog.
-        </span>
+        <div>
+          <span
+            class="block text-gray-500 text-sm md:text-base dark:text-gray-200"
+          >
+            A collection of templates for your next blog.
+          </span>
+          <span
+            class="text-gray-500 text-xs dark:text-gray-200"
+          >
+            Add your own template by following the <a
+              class="font-bold underline decoration-dashed underline-offset-4"
+              href="/recipes/sharing-theme"
+            >official guide</a>
+          </span>
+        </div>
       </div>
       <div
         class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:grid-cols-3 xl:grid-cols-4"
