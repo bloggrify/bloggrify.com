@@ -61,7 +61,6 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: process.env.NETLIFY ? 'netlify_edge' : undefined,
     prerender: {
       routes: ["/sitemap.xml"],
     },
