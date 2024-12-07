@@ -44,7 +44,7 @@ export default defineNuxtConfig({
       name: "Bloggrify",
 
       socials: {
-        twitter: "https://twitter.com/hugolassiege",
+        twitter: "https://x.com/hugolassiege",
         github: "https://github.com/bloggrify",
       },
 
@@ -61,7 +61,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: process.env.NETLIFY ? 'netlify' : undefined,
     prerender: {
+      failOnError: false,
       routes: ["/sitemap.xml"],
     },
   },
