@@ -57,8 +57,8 @@
           <p class="text-gray-600 dark:text-gray-400">
             Save time with built-in integrations like Hyvor Talk for comments,
             <NuxtLink to="https://blogtally.com/products/pulse" class="link">Blogtally</NuxtLink> for analytics,
-            <NuxtLink to="https://rssfeedpulse.com" class="link">
-              RssFeedPulse
+            <NuxtLink to="https://blogtally.com" class="link">
+              Blogtally
             </NuxtLink> for newsletter or static search.
           </p>
         </div>
