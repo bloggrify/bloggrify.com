@@ -5,6 +5,13 @@ export default defineNuxtConfig({
         lang: "en",
       },
       script: [
+        {
+          src: "https://tracker.blogtally.com/blogtally.min.js",
+          "data-site": "TK-bd37ebcd",
+          "data-link-tracking": true,
+          defer: true,
+          async: true,
+        },
         ...(process.env.PIRSCH_CODE
             ? [
               {
