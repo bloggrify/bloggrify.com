@@ -157,7 +157,7 @@
             Write your articles in
             markdown, including graphs, math functions and custom components to enhance your content.
           </p>
-          <NuxtLink class="link" to="/reference/markdown">
+          <NuxtLink class="link" to="/content/markdown">
             Read more
           </NuxtLink>
         </div>
