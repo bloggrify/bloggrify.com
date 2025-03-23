@@ -18,7 +18,7 @@
     "@nuxt/eslint-config": "^0.2.0",
     "@types/node": "22.10.1",
     "eslint": "8.57.0",
-    "nuxt": "3.14.1592",
+    "nuxt": "3.16.1",
     "pinceau": "^0.15.4",
     "postcss": "8.4.38",
     "sass": "1.77.2",
