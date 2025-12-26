@@ -46,10 +46,10 @@
 
       <div class="mt-5 max-w-3xl text-center mx-auto">
         <p class="text-lg text-gray-600 dark:text-gray-400">
-          Bloggrify is a <strong>static</strong> blog generator
-          built on top of Nuxt.js and Nuxt-content providing
-          everything you need to start writing your blog
-          hassle-free AND <strong>for free</strong>.
+          Bloggrify is a <strong>static blog generator</strong> powered by Nuxt Content,
+          with pre-configured integrations for analytics, newsletters, comments, and SEO.
+          Everything you need to start writing your blog
+          <strong>hassle-free</strong>.
         </p>
       </div>
 

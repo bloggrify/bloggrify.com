@@ -55,11 +55,10 @@
             </div>
           </div>
           <p class="text-gray-600 dark:text-gray-400">
-            Save time with built-in integrations like Hyvor Talk for comments,
-            <NuxtLink to="https://blogtally.com/products/pulse" class="link">Blogtally</NuxtLink> for analytics,
-            <NuxtLink to="https://blogtally.com" class="link">
-              Blogtally
-            </NuxtLink> for newsletter or static search.
+            Save time with pre-configured integrations for analytics
+            (<NuxtLink to="https://pulse.hakanai.io" class="link">Hakanai</NuxtLink>, Google Analytics, Plausible, and more),
+            newsletters (<NuxtLink to="https://broadcast.hakanai.io" class="link">Hakanai</NuxtLink>, MailerLite),
+            comments (Hyvor Talk), and static search.
           </p>
         </div>
         <!-- End Card -->
