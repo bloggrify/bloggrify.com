@@ -95,13 +95,13 @@
               <h2
                 class="block text-lg font-semibold text-gray-800 dark:text-white"
               >
-                SEO friendly
+                Discoverability
               </h2>
             </div>
           </div>
           <p class="text-gray-600 dark:text-gray-400">
-            Manage everything for you, open graph meta tags,
-            twitter cards, and sitemap
+            Optimize your blog's reach with SEO (open graph, twitter cards, sitemap),
+            RSS feed generation, and automated metadata management.
           </p>
           <NuxtLink class="link" to="/reference/seo">
             Read more
@@ -184,29 +184,25 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               >
-                <path
-                  d="M16.466 7.5C15.643 4.237 13.952 2 12 2 9.239 2 7 6.477 7 12s2.239 10 5 10c.342 0 .677-.069 1-.2"
-                />
-                <path
-                  d="m15.194 13.707 3.814 1.86-1.86 3.814"
-                />
-                <path
-                  d="M19 15.57c-1.804.885-4.274 1.43-7 1.43-5.523 0-10-2.239-10-5s4.477-5 10-5c4.838 0 8.873 1.718 9.8 4"
-                />
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+                <path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19" />
               </svg>
             </div>
             <div class="flex-shrink-0">
               <h2
                 class="block text-lg font-semibold text-gray-800 dark:text-white"
               >
-                RSS
+                CLI Tools
               </h2>
             </div>
           </div>
           <p class="text-gray-600 dark:text-gray-400">
-            Generate your RSS feed and let your readers follow
-            your blog.
+            Manage your blog efficiently with built-in commands. Create posts, manage drafts,
+            validate content, and view statistics—all from your terminal.
           </p>
+          <NuxtLink class="link" to="/introduction/cli">
+            Read more
+          </NuxtLink>
         </div>
         <!-- End Card -->
 
