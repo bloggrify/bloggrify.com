@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       },
       script: [
         {
-          src: "https://tracker.blogtally.com/blogtally.min.js",
+          src: "https://tracker.hakanai.io/hakanai.min.js",
           "data-site": "TK-bd37ebcd",
           "data-link-tracking": true,
           defer: true,
