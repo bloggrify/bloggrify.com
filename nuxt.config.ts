@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  modules: ["@nuxt/image"],
+
+  extends: "docus",
+
   app: {
     head: {
       htmlAttrs: {
@@ -12,32 +16,9 @@ export default defineNuxtConfig({
           defer: true,
           async: true,
         },
-        ...(process.env.PIRSCH_CODE
-            ? [
-              {
-                src: "https://api.pirsch.io/pirsch.js",
-                id: "pirschjs",
-                defer: true,
-                "data-code": process.env.PIRSCH_CODE,
-                type: "text/javascript",
-              },
-            ]
-            : []),
       ],
     },
   },
-
-  extends: '@nuxt-themes/docus',
-  devtools: { enabled: true },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
-  css: ["~/assets/css/main.scss"],
 
   runtimeConfig: {
     public: {
@@ -66,11 +47,4 @@ export default defineNuxtConfig({
     },
   },
 
-  nitro: {
-    prerender: {
-      routes: ["/sitemap.xml"],
-    },
-  },
-
-  compatibilityDate: "2024-05-07",
 })

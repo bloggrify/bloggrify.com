@@ -1,29 +1,19 @@
 {
   "name": "bloggrify-website",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "prepare": "nuxi prepare",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
     "lint": "eslint ."
   },
   "dependencies": {
-    "@tailwindcss/typography": "0.5.15"
-  },
-  "devDependencies": {
-    "@nuxt-themes/docus": "1.15.1",
-    "@nuxt/devtools": "1.6.3",
-    "@nuxt/eslint-config": "^0.2.0",
-    "@types/node": "22.10.1",
-    "eslint": "8.57.0",
-    "nuxt": "3.16.1",
-    "pinceau": "^0.15.4",
-    "postcss": "8.4.38",
-    "sass": "1.77.2",
-    "sitemap": "7.1.1",
-    "tailwindcss": "3.4.16"
+    "@nuxt/eslint": "^1.12.1",
+    "@nuxt/image": "^2.0.0",
+    "better-sqlite3": "^12.5.0",
+    "docus": "latest",
+    "eslint": "^9.39.2",
+    "nuxt": "^4.2.2"
   }
 }
