@@ -27,7 +27,7 @@ repoUrl: https://github.com/bloggrify/mistral
 title: Epoxia
 image: /images/templates/epoxia.png
 demoUrl: https://epoxia.bloggrify.com/
-buyUrl: /buy/epoxia
+buyUrl: https://eventuallycoding.lemonsqueezy.com/buy/7d05b8bf-add4-4839-8c78-925a073702bb
 ---
 ::
 
@@ -36,7 +36,7 @@ buyUrl: /buy/epoxia
 title: Bento
 image: /images/templates/bento.jpg
 demoUrl: https://bento.bloggrify.com/
-buyUrl: /buy/bento
+buyUrl: https://eventuallycoding.lemonsqueezy.com/buy/449c5e3a-7b34-4bff-b2c3-957adbb6df8e
 ---
 ::
 
