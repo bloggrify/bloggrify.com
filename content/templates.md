@@ -1,7 +1,7 @@
 ---
 layout: index
 seo:
-  title: Bloggrify - Write beautiful docs with Markdown
+  title: Bloggrify - Write beautiful blogs with Markdown
   description: Start your blog in minutes with Bloggrify, a modern static site generator using Markdown, built on top of Nuxt.js and nuxt-content.
 ---
 
