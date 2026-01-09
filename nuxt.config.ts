@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  modules: ["@nuxt/image"],
+  modules: ["@nuxt/image", 'nuxt-llms'],
 
   extends: "docus",
 
@@ -18,6 +18,12 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+
+  llms: {
+    domain: 'https://bloggrify.com',
+    title: 'Bloggrify',
+    description: 'Start your blog in minutes with Bloggrify, a modern static site generator using Markdown, built on top of Nuxt.js and nuxt-content.',
   },
 
   runtimeConfig: {

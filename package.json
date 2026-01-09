@@ -13,8 +13,9 @@
     "@nuxt/eslint": "^1.12.1",
     "@nuxt/image": "^2.0.0",
     "better-sqlite3": "^12.5.0",
-    "docus": "latest",
+    "docus": "^5.4.2",
     "eslint": "^9.39.2",
-    "nuxt": "^4.2.2"
+    "nuxt": "^4.2.2",
+    "nuxt-llms": "^0.1.3"
   }
 }
