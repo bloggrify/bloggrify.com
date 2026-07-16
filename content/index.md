@@ -47,7 +47,7 @@ Include powerful features
   Built-in integrations
   
   #description
-  Save time with pre-configured integrations for analytics ( [Hakanai](https://pulse.hakanai.io/) , Google Analytics, Plausible, and more), newsletters ( [Hakanai](https://broadcast.hakanai.io/) , MailerLite), comments (Hyvor Talk), and static search.
+  Save time with pre-configured integrations for analytics ( [Hakanai](https://pulse.hakanai.io/) , Google Analytics, Plausible, and more), newsletters ( [Hakanai](https://broadcast.hakanai.io/) , MailerLite), comments ( [Hakanai Connect](https://connect.hakanai.io/) , Hyvor Talk), and static search.
 
 
   :::
