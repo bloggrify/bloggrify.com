@@ -8,6 +8,13 @@ on:
         branches:
             - main
 
+# Queue deploys instead of running them side by side: two concurrent uploads to
+# the same storage zone would delete each other's chunks. Never cancel a running
+# one, it would leave the zone half updated.
+concurrency:
+    group: deploy-${{ github.ref }}
+    cancel-in-progress: false
+
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -29,7 +36,10 @@ jobs:
             - name: Generate static site
               run: npm run generate
 
+            # Pull requests build only: deploying one would overwrite production
+            # with the branch content and delete the live files.
             - name: Deploy to Bunny
+              if: github.event_name == 'push'
               uses: R-J-dev/bunny-deploy@v2.1.1
               with:
                 access-key: ${{ secrets.BUNNY_ACCESS_KEY }}
@@ -39,7 +49,7 @@ jobs:
                 storage-zone-password: ${{ secrets.BUNNY_STORAGE_ZONE_PASSWORD }}
                 enable-delete-action: true
                 enable-purge-pull-zone: true
-                pull-zone-id: "5063091"
+                pull-zone-id: "5069277"
                 concurrency: 50
                 replication-timeout: "15000"
                 request-timeout: "15000" # optional, defaults to 5000
