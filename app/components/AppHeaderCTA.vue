@@ -1,0 +1,10 @@
+<template>
+  <UButton
+    to="https://minimalist.bloggrify.com"
+    target="_blank"
+    icon="i-lucide-rss"
+    color="neutral"
+    variant="ghost"
+    label="Blog"
+  />
+</template>
