@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
-  modules: ["@nuxt/image", 'nuxt-llms'],
+  // @nuxt/image et nuxt-llms sont déjà enregistrés par la couche docus.
+  modules: ['@nuxt/eslint'],
 
   extends: "docus",
 
