@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
   <UPageCard :title="title">
-    <img :src="image" :alt="title" class="w-full rounded" />
+    <img :src="image" :alt="title" class="w-full rounded" >
 
     <template #footer>
       <div class="flex gap-2 w-full">
