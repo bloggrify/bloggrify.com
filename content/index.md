@@ -9,7 +9,7 @@ seo:
 Start your blog in [minutes]{.text-primary}
 
 #description
-Bloggrify is a **static blog generator** powered by Nuxt Content, with pre-configured integrations for analytics, newsletters, comments, and SEO. Everything you need to start writing your blog **hassle-free**.
+Bloggrify is a **static blog generator**, with pre-configured integrations for analytics, newsletters, comments, and SEO. Everything you need to start writing your blog **hassle-free**.
 
 #links
   :::u-button
