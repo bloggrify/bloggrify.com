@@ -27,10 +27,10 @@ Bloggrify is a **static blog generator** powered by Nuxt Content, with pre-confi
   color: neutral
   icon: i-lucide-arrow-right
   size: xl
-  to: https://mistral.bloggrify.com/
+  to: https://minimalist.bloggrify.com/
   variant: outline
   ---
-  Demo
+  See it live
   :::
 ::
 
