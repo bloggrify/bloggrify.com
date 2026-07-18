@@ -26,6 +26,25 @@ export default defineNuxtConfig({
           defer: true,
           async: true,
         },
+        // OpenPanel. Docus has no analytics composable like the bloggrify engine,
+        // so the tracker is wired by hand here. The client ID is a public value
+        // shipped to every visitor. Mirrors what `useAnalytics` emits for the blog.
+        {
+          src: "https://openpanel.dev/op1.js",
+          defer: true,
+          async: true,
+        },
+        {
+          innerHTML: `
+            window.op = window.op || function(...args){(window.op.q = window.op.q || []).push(args);};
+            window.op('init', {
+              clientId: '914581e8-8064-44c0-b6da-90cc11b560df',
+              trackScreenViews: true,
+              trackOutgoingLinks: true,
+              trackAttributes: true,
+            });
+          `,
+        },
       ],
     },
   },
