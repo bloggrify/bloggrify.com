@@ -18,7 +18,7 @@ Add your own template by following the [official guide](/recipes/sharing-theme){
 title: Mistral
 image: /images/templates/bloggr.png
 demoUrl: https://mistral.bloggrify.com/
-repoUrl: https://github.com/bloggrify/mistral
+repoUrl: https://github.com/bloggrify/bloggrify-mistral
 ---
 ::
 
@@ -45,7 +45,7 @@ buyUrl: https://eventuallycoding.lemonsqueezy.com/buy/449c5e3a-7b34-4bff-b2c3-95
 title: Minimalist
 image: /images/templates/minimalist.jpg
 demoUrl: https://minimalist.bloggrify.com/
-repoUrl: https://github.com/bloggrify/minimalist
+repoUrl: https://github.com/bloggrify/bloggrify
 ---
 ::
 :::
