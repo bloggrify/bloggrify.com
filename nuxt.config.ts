@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         // so the tracker is wired by hand here. The client ID is a public value
         // shipped to every visitor. Mirrors what `useAnalytics` emits for the blog.
         {
-          src: "https://openpanel.dev/op1.js",
+          src: "https://hla.hakanai.io/op1.js",
           defer: true,
           async: true,
         },
