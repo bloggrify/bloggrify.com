@@ -39,6 +39,7 @@ export default defineNuxtConfig({
             window.op = window.op || function(...args){(window.op.q = window.op.q || []).push(args);};
             window.op('init', {
               clientId: '914581e8-8064-44c0-b6da-90cc11b560df',
+              apiUrl: 'https://opapi.hakanai.io',
               trackScreenViews: true,
               trackOutgoingLinks: true,
               trackAttributes: true,
